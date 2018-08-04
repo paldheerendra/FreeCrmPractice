@@ -29,7 +29,7 @@ public class LogInTest {
 		log.info("****************************** Starting test cases execution  *****************************************");
 
 		Properties prop = new Properties();
-		FileInputStream fip = new FileInputStream("C:\\Users\\Mohsin\\Dheeru\\Work\\FreeCRM\\config.properties");
+		FileInputStream fip = new FileInputStream("C:\\Users\\Mohsin\\Dheeru\\Work\\FreeCRMPractice\\config.properties");
 		prop.load(fip);
 
 		log.info("*****Opening the broweser*****");

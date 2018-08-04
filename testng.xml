@@ -3,10 +3,8 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="Utilities.ExcelData"/>
       <class name="com.qa.test.LogOutTest"/>
       <class name="com.qa.test.LogInTest"/>
-      <class name="Utilities.ExcelDataProvider"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

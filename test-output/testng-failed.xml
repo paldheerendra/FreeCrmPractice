@@ -3,18 +3,6 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="Utilities.ExcelDataProvider">
-        <methods>
-          <include name="loginApp"/>
-        </methods>
-      </class> <!-- Utilities.ExcelDataProvider -->
-      <class name="com.qa.test.LogInTest">
-        <methods>
-          <include name="logInTest"/>
-          <include name="setUp"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- com.qa.test.LogInTest -->
       <class name="com.qa.test.LogOutTest">
         <methods>
           <include name="logOutTest"/>
@@ -22,6 +10,13 @@
           <include name="tearDown"/>
         </methods>
       </class> <!-- com.qa.test.LogOutTest -->
+      <class name="com.qa.test.LogInTest">
+        <methods>
+          <include name="logInTest"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.qa.test.LogInTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

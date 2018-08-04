@@ -23,7 +23,7 @@ public class LogOutTest extends Utility {
 	public void setUp() throws IOException {
 		
 		Properties prop = new Properties();
-		FileInputStream fip = new FileInputStream("C:\\Users\\Mohsin\\Dheeru\\Work\\FreeCRM\\config.properties");
+		FileInputStream fip = new FileInputStream("C:\\Users\\Mohsin\\Dheeru\\Work\\FreeCRMPractice\\config.properties");
 		prop.load(fip);
 
 		

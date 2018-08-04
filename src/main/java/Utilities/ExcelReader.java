@@ -18,7 +18,7 @@ public class ExcelReader {
 	
 	public static Object[][] getData() throws IOException
 	{
-		src= new File("C:\\Users\\Mohsin\\Dheeru\\Work\\FreeCRM\\src\\main\\java\\testData\\TestNGLoginTestData.xlsx");
+		src= new File("C:\\Users\\Mohsin\\Dheeru\\Work\\FreeCRMPractice\\src\\main\\java\\testData\\TestNGLoginTestData.xlsx");
 		
 		FileInputStream fis=new FileInputStream(src);
 		
